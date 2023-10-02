@@ -116,7 +116,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR/'assets'
-STATICFIILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
+STATICFIILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # Media Folder
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
