@@ -16,7 +16,7 @@ SECRET_KEY = 'django-insecure-j@#g9kzp@96y*na3p6+t$5&(=mrs#z&$0qri^)7nfc1@(h^fc(
 DEBUG = True
 
 ALLOWED_HOSTS = ['*', 'estateangency.onrender.com' ]
-
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 # Application definition
 
